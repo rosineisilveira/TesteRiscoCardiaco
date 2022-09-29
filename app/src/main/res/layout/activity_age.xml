@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgeActivity">
+
+    <Button
+        android:id="@+id/btn_age_01"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#30F306"
+        android:rotation="-10"
+        android:rotationY="12"
+        android:text="@string/_10_a_20_anos"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_age" />
+
+    <TextView
+        android:id="@+id/text_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="cursive"
+        android:text="@string/vamos_come_ar_por_sua_idade"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="38sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_age_02"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#7DCD1F"
+        android:rotation="-10"
+        android:rotationY="12"
+        android:text="@string/_21_a_30_anos"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_age_01"
+        app:layout_constraintStart_toStartOf="@+id/btn_age_01"
+        app:layout_constraintTop_toBottomOf="@+id/btn_age_01" />
+
+    <Button
+        android:id="@+id/btn_age_03"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#DABE31"
+        android:rotation="-10"
+        android:rotationY="11"
+        android:text="@string/_31_a_40_anos"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_age_02"
+        app:layout_constraintStart_toStartOf="@+id/btn_age_02"
+        app:layout_constraintTop_toBottomOf="@+id/btn_age_02" />
+
+    <Button
+        android:id="@+id/btn_age_04"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FFB803"
+        android:rotation="-10"
+        android:rotationY="11"
+        android:text="@string/_41_a_50_anos"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_age_03"
+        app:layout_constraintStart_toStartOf="@+id/btn_age_03"
+        app:layout_constraintTop_toBottomOf="@+id/btn_age_03" />
+
+    <Button
+        android:id="@+id/btn_age_05"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#F16C06"
+        android:rotation="-10"
+        android:rotationY="10"
+        android:text="@string/_51_a_60_anos"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_age_04"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_age_04"
+        app:layout_constraintTop_toBottomOf="@+id/btn_age_04" />
+
+    <Button
+        android:id="@+id/btn_age_06"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#FD0303"
+        android:rotation="-10"
+        android:rotationY="10"
+        android:text="@string/acima_de_61_anos"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_age_05"
+        app:layout_constraintStart_toStartOf="@+id/btn_age_05"
+        app:layout_constraintTop_toBottomOf="@+id/btn_age_05" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
