@@ -16,7 +16,7 @@
         android:rotation="-10"
         android:rotationY="12"
         android:text="@string/abaixo_de_180_ou_a_dieta_n_o_cont_m_gorduras_animais"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_cholesterol" />
@@ -43,7 +43,7 @@
         android:rotation="-10"
         android:rotationY="12"
         android:text="@string/de_181_a_205_ou_a_dieta_cont_m_10_de_gorduras_animais"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_cholesterol_01"
         app:layout_constraintStart_toStartOf="@+id/btn_cholesterol_01"
         app:layout_constraintTop_toBottomOf="@+id/btn_cholesterol_01" />
@@ -57,7 +57,7 @@
         android:rotation="-10"
         android:rotationY="11"
         android:text="@string/de_206_a_230_ou_a_dieta_cont_m_20_de_gorduras_animais"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_cholesterol_02"
         app:layout_constraintStart_toStartOf="@+id/btn_cholesterol_02"
         app:layout_constraintTop_toBottomOf="@+id/btn_cholesterol_02" />
@@ -71,7 +71,7 @@
         android:rotation="-10"
         android:rotationY="11"
         android:text="@string/de_231_a_255_ou_a_dieta_cont_m_30_de_gorduras_animais"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_cholesterol_03"
         app:layout_constraintStart_toStartOf="@+id/btn_cholesterol_03"
         app:layout_constraintTop_toBottomOf="@+id/btn_cholesterol_03" />
@@ -85,7 +85,7 @@
         android:rotation="-10"
         android:rotationY="10"
         android:text="@string/de_256_a_280_ou_a_dieta_cont_m_40_de_gorduras_animais"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_cholesterol_04"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btn_cholesterol_04"
@@ -100,7 +100,7 @@
         android:rotation="-10"
         android:rotationY="10"
         android:text="@string/acima_de_281_ou_a_dieta_cont_m_50_de_gorduras_animais"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_cholesterol_05"
         app:layout_constraintStart_toStartOf="@+id/btn_cholesterol_05"
         app:layout_constraintTop_toBottomOf="@+id/btn_cholesterol_05" />

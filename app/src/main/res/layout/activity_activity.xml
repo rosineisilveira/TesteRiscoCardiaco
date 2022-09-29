@@ -16,7 +16,7 @@
         android:rotation="-10"
         android:rotationY="12"
         android:text="@string/esfor_o_profissional_e_recreativo_intenso"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_activity" />
@@ -43,7 +43,7 @@
         android:rotation="-10"
         android:rotationY="12"
         android:text="@string/esfor_o_profissional_e_recreativo_moderado"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_activity_01"
         app:layout_constraintStart_toStartOf="@+id/btn_activity_01"
         app:layout_constraintTop_toBottomOf="@+id/btn_activity_01" />
@@ -57,7 +57,7 @@
         android:rotation="-10"
         android:rotationY="11"
         android:text="@string/trabalho_sedent_rio_e_recreativo_intenso"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_activity_02"
         app:layout_constraintStart_toStartOf="@+id/btn_activity_02"
         app:layout_constraintTop_toBottomOf="@+id/btn_activity_02" />
@@ -71,7 +71,7 @@
         android:rotation="-10"
         android:rotationY="11"
         android:text="@string/trabalho_sedent_rio_e_recreativo_moderado"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_activity_03"
         app:layout_constraintStart_toStartOf="@+id/btn_activity_03"
         app:layout_constraintTop_toBottomOf="@+id/btn_activity_03" />
@@ -85,7 +85,7 @@
         android:rotation="-10"
         android:rotationY="10"
         android:text="@string/trabalho_sedent_rio_e_recreativo_leve"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_activity_04"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btn_activity_04"
@@ -100,7 +100,7 @@
         android:rotation="-10"
         android:rotationY="10"
         android:text="@string/aus_ncia_completa_de_qualquer_exercicio"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_activity_05"
         app:layout_constraintStart_toStartOf="@+id/btn_activity_05"
         app:layout_constraintTop_toBottomOf="@+id/btn_activity_05" />

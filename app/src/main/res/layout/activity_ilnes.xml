@@ -16,7 +16,7 @@
         android:rotation="-10"
         android:rotationY="12"
         android:text="@string/nenhum_hist_rico_de_cardiopatia"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/text_illnes" />
@@ -43,7 +43,7 @@
         android:rotation="-10"
         android:rotationY="12"
         android:text="@string/_1_parente_com_doen_a_card_aca__de_60_anos"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_illnes_01"
         app:layout_constraintStart_toStartOf="@+id/btn_illnes_01"
         app:layout_constraintTop_toBottomOf="@+id/btn_illnes_01" />
@@ -57,7 +57,7 @@
         android:rotation="-10"
         android:rotationY="11"
         android:text="@string/_2_parentes_com_doen_a_card_aca_de_60_anos"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_illnes_02"
         app:layout_constraintStart_toStartOf="@+id/btn_illnes_02"
         app:layout_constraintTop_toBottomOf="@+id/btn_illnes_02" />
@@ -71,7 +71,7 @@
         android:rotation="-10"
         android:rotationY="11"
         android:text="@string/_1_parente_com_doen_a_card_aca_de_60_anos"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_illnes_03"
         app:layout_constraintStart_toStartOf="@+id/btn_illnes_03"
         app:layout_constraintTop_toBottomOf="@+id/btn_illnes_03" />
@@ -85,7 +85,7 @@
         android:rotation="-10"
         android:rotationY="10"
         android:text="@string/_2_parente_com_doen_a_card_aca_de_60_anos"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_illnes_04"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btn_illnes_04"
@@ -100,7 +100,7 @@
         android:rotation="-10"
         android:rotationY="10"
         android:text="@string/_3_parente_com_doen_a_card_aca_de_60_anos"
-        android:textSize="20sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/btn_illnes_05"
         app:layout_constraintStart_toStartOf="@+id/btn_illnes_05"
         app:layout_constraintTop_toBottomOf="@+id/btn_illnes_05" />
